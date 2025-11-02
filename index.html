@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lihong's Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 导航栏 -->
+  <nav class="navbar">
+    <div class="nav-links">
+      <a href="#gallery-section" class="nav-link active" data-lang-zh="作品集" data-lang-en="Gallery">作品集</a>
+      <a href="#about-section" class="nav-link" data-lang-zh="朱莉弘" data-lang-en="Lihong">朱莉弘</a>
+      <a href="#about-section" class="nav-link" data-lang-zh="关于" data-lang-en="About">关于</a>
+    </div>
+    <!-- 导航栏语言切换 -->
+    <div class="nav-lang-switch">
+      <button class="nav-lang-btn active" data-lang="zh">中文</button>
+      <button class="nav-lang-btn" data-lang="en">EN</button>
+    </div>
+  </nav>
+
+  <!-- Gallery 部分 -->
+  <section id="gallery-section" class="page-section active">
+    <div class="container">
+      <div class="gallery-title">
+        <h1 data-lang-zh="作品集" data-lang-en="Art Gallery">作品集</h1>
+        <p data-lang-zh="探索数字艺术作品与创意项目" data-lang-en="Explore the collection of digital artworks and creative projects">探索数字艺术作品与创意项目的收藏</p>
+      </div>
+
+      <!-- 画廊 -->
+      <div class="gallery" id="gallery">
+        <!-- 卡片将通过JavaScript生成 -->
+      </div>
+    </div>
+
+    <!-- 信息框 -->
+    <div class="info-box" id="infoBox">
+      <h2 id="infoTitle" data-lang-zh="悬停查看项目" data-lang-en="Hover over a project">悬停查看项目</h2>
+      <div class="year-type" id="infoMeta">
+        <span data-lang-zh="选择卡片" data-lang-en="Select a card">选择卡片</span>
+        <span data-lang-zh="查看详情" data-lang-en="to see details">查看详情</span>
+      </div>
+      <p id="infoDescription" data-lang-zh="将光标悬停在任意卡片上查看项目信息" data-lang-en="Move your cursor over any of the cards to view project information">将光标悬停在任意卡片上查看项目信息</p>
+    </div>
+  </section>
+
+  <!-- About 部分 -->
+  <section id="about-section" class="page-section">
+    <div class="about-container">
+      <!-- 个人信息头部 -->
+      <div class="profile-header">
+        <h1 class="profile-name" data-lang-zh="朱莉弘" data-lang-en="Julie Zhu">朱莉弘</h1>
+        <div class="profile-title" data-lang-zh="交互设计师" data-lang-en="Interaction Designer">交互设计师</div>
+        <div class="contact-info">
+          <div class="contact-item">
+            <span>📱</span>
+            <span>15925113791</span>
+          </div>
+          <div class="contact-item">
+            <span>✉️</span>
+            <span>501267858@qq.com</span>
+          </div>
+          <div class="contact-item">
+            <span data-lang-zh="性别" data-lang-en="Gender">性别</span>
+            <span data-lang-zh="女" data-lang-en="Female">女</span>
+          </div>
+          <!-- <div class="contact-item">
+            <span data-lang-zh="年龄" data-lang-en="Age">年龄</span>
+            <span>25</span>
+          </div> -->
+        </div>
+        <!-- 语言切换按钮 -->
+        <!-- <div class="lang-switch">
+          <button class="lang-btn active" data-lang="zh">中文</button>
+          <button class="lang-btn" data-lang="en">English</button>
+        </div>
+      </div> -->
+
+      <!-- 关于我 -->
+      <div class="about-section">
+        <h2 class="section-title" data-lang-zh="关于我" data-lang-en="About Me">关于我</h2>
+        <p data-lang-zh="拥有国际化的交互设计与数字媒体背景，擅长以研究驱动创新设计。能够结合交互逻辑、视觉语言与技术实现，构建兼具美感与功能的用户体验。关注沉浸式交互、AI设计与健康传播方向，具有扎实的项目实践与跨学科协作经验。" 
+           data-lang-en="With an international background in interaction design and digital media, I specialize in research-driven innovative design. I combine interaction logic, visual language, and technical implementation to create user experiences that balance aesthetics and functionality. My focus areas include immersive interaction, AI design, and health communication, with solid project practice and cross-disciplinary collaboration experience.">
+            拥有国际化的交互设计与数字媒体背景，擅长以研究驱动创新设计。能够结合交互逻辑、视觉语言与技术实现，构建兼具美感与功能的用户体验。关注沉浸式交互、AI设计与健康传播方向，具有扎实的项目实践与跨学科协作经验。
+        </p>
+      </div>
+
+      <!-- 技能 -->
+      <div class="skills-section">
+        <h2 class="section-title" data-lang-zh="技能" data-lang-en="Skills">技能</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3 data-lang-zh="设计工具" data-lang-en="Design Tools">设计工具</h3>
+            <ul class="skill-list">
+              <li>Figma</li>
+              <li>Photoshop</li>
+              <li>Illustrator</li>
+              <li>After Effects</li>
+              <li>InDesign</li>
+              <li>Rhino</li>
+              <li>Blender</li>
+              <li>AutoCAD</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3 data-lang-zh="交互与原型" data-lang-en="Interaction & Prototyping">交互与原型</h3>
+            <ul class="skill-list">
+              <li>Unity</li>
+              <li>Arduino</li>
+              <li>Raspberry Pi</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3 data-lang-zh="研究方法" data-lang-en="Research Methods">研究方法</h3>
+            <ul class="skill-list">
+              <li data-lang-zh="用户研究" data-lang-en="User Research">用户研究</li>
+              <li data-lang-zh="可用性测试" data-lang-en="Usability Testing">可用性测试</li>
+              <li data-lang-zh="体验映射" data-lang-en="Experience Mapping">体验映射</li>
+              <li data-lang-zh="交互原型" data-lang-en="Interaction Prototyping">交互原型</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3 data-lang-zh="编程能力" data-lang-en="Programming">编程能力</h3>
+            <ul class="skill-list">
+              <li>C#</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- 教育经历 -->
+      <div class="education-section">
+        <h2 class="section-title" data-lang-zh="教育经历" data-lang-en="Education">教育经历</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-date">2024.09 - 2025.09</div>
+            <div class="timeline-title" data-lang-zh="数字设计未来 | 硕士" data-lang-en="Future Digital Design | Master">数字设计未来 | 硕士</div>
+            <div class="timeline-description">
+              <p data-lang-zh="主修课程：沉浸与参与式设计，未来思维与推测性设计，创意编程与生成艺术，数字叙事与空间表达" 
+                 data-lang-en="Main Courses: Immersive and Participatory Design, Future Thinking and Speculative Design, Creative Programming and Generative Art, Digital Storytelling and Spatial Expression">
+                  主修课程：沉浸与参与式设计，未来思维与推测性设计，创意编程与生成艺术，数字叙事与空间表达
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">2020.09 - 2024.05</div>
+            <div class="timeline-title" data-lang-zh="交互设计 | 本科" data-lang-en="Interaction Design | Bachelor">交互设计 | 本科</div>
+            <div class="timeline-description">
+              <p data-lang-zh="主修课程：交互设计，AI剪辑，UI设计，前端编程，三维建模与混合现实设计，健康与用户体验设计，网络化物体设计与物联网体验，新兴技术交互设计" 
+                 data-lang-en="Main Courses: Interaction Design, AI Editing, UI Design, Front-end Programming, 3D Modeling and Mixed Reality Design, Health and User Experience Design, Networked Object Design and IoT Experience, Emerging Technology Interaction Design">
+                  主修课程：交互设计，AI剪辑，UI设计，前端编程，三维建模与混合现实设计，健康与用户体验设计，网络化物体设计与物联网体验，新兴技术交互设计
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 工作经历 -->
+      <div class="experience-section">
+        <h2 class="section-title" data-lang-zh="工作经历" data-lang-en="Work Experience">工作经历</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-date">2023.06 - 2023.09</div>
+            <div class="timeline-title" data-lang-zh="UI设计师" data-lang-en="UI Designer">UI设计师</div>
+            <div class="timeline-subtitle"data-lang-zh="云南派动科技有限公司" data-lang-en="hanghai Pydance Technology Co,, Ltd."></div> 
+            <ul class="timeline-description">
+              <li data-lang-zh="参与公司官网的整体页面设计与前端界面排版，提升品牌统一性与可读性" 
+                  data-lang-en="Participated in the overall page design and front-end interface layout of the company website, enhancing brand consistency and readability">
+                    参与公司官网的整体页面设计与前端界面排版，提升品牌统一性与可读性
+              </li>
+              <li data-lang-zh="独立完成产品及视频的视觉脚本设计与剪辑，增强传播效果" 
+                  data-lang-en="Independently completed visual script design and editing for products and videos, enhancing communication effectiveness">
+                    独立完成产品及视频的视觉脚本设计与剪辑，增强传播效果
+              </li>
+              <li data-lang-zh="负责多款平面物料设计，包括宣传海报封面、推广图文与展示界面" 
+                  data-lang-en="Responsible for multiple graphic material designs, including promotional posters, marketing graphics, and display interfaces">
+                    负责多款平面物料设计，包括宣传海报封面、推广图文与展示界面
+              </li>
+              <li data-lang-zh="协助完成系统部分UI界面设计，优化用户操作流程与视觉层级" 
+                  data-lang-en="Assisted in completing UI interface design for system components, optimizing user workflows and visual hierarchy">
+                    协助完成系统部分UI界面设计，优化用户操作流程与视觉层级
+              </li>
+            </ul>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">2021.06 - 2022.06</div>
+            <div class="timeline-title" data-lang-zh="绘画助理" data-lang-en="Painting Assistant">绘画助理</div>
+            <div class="timeline-subtitle" data-lang-zh="培训/课外教育/教育辅助" data-lang-en="Training/Extracurricular Education/Educational Support">培训/课外教育/教育辅助</div>
+            <ul class="timeline-description">
+              <li data-lang-zh="引导学生初步理解交互设计的核心理念与工作流程" 
+                  data-lang-en="Guided students in understanding the core concepts and workflows of interaction design">
+                    引导学生初步理解交互设计的核心理念与工作流程
+              </li>
+              <li data-lang-zh="系统讲解交互设计常用软件工具，包括 Adobe Photoshop、Illustrator、InDesign、Figma 等" 
+                  data-lang-en="Systematically explained commonly used software tools in interaction design, including Adobe Photoshop, Illustrator, InDesign, Figma, etc.">
+                    系统讲解交互设计常用软件工具，包括 Adobe Photoshop、Illustrator、InDesign、Figma 等
+              </li>
+              <li data-lang-zh="引导学生完成从概念发展到作品落地的实践项目，帮助其建立用户思维与界面逻辑" 
+                  data-lang-en="Guided students through practical projects from concept development to implementation, helping them establish user thinking and interface logic">
+                    引导学生完成从概念发展到作品落地的实践项目，帮助其建立用户思维与界面逻辑
+              </li>
+              <li data-lang-zh="协助学生准备作品集展示，提升其对数字产品设计的认知与表达能力" 
+                  data-lang-en="Assisted students in preparing portfolio presentations, enhancing their understanding and expression of digital product design">
+                    协助学生准备作品集展示，提升其对数字产品设计的认知与表达能力
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 详情模态框 -->
+  <!-- 详情模态框 -->
+<div class="modal" id="detailModal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h2 id="modalTitle" data-lang-zh="项目详情" data-lang-en="Project Details">项目详情</h2>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <div class="resources-section">
+        <h3 id="resourcesTitle" data-lang-zh="项目资源" data-lang-en="Project Resources">项目资源</h3>
+        <div class="resource-tabs">
+          <div class="resource-category">
+            <div class="resource-links" id="pdfLinks">
+              <!-- PDF标签将通过JavaScript生成 -->
+            </div>
+          </div>
+          <div class="resource-category">
+            <div class="resource-links" id="videoLinks">
+              <!-- 视频标签将通过JavaScript生成 -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- PDF预览区域 -->
+      <div class="pdf-preview" id="pdfPreview">
+        <div id="noPreviewContent" class="no-preview" data-lang-zh="请选择资源文件进行预览" data-lang-en="Please select a resource file to preview">
+          请选择资源文件进行预览
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
