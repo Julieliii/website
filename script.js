@@ -168,17 +168,17 @@ class LanguageManager {
 // Canva链接映射配置 - 请替换为您的实际Canva链接
 const canvaLinkMapper = {
   // PDF文件映射 - 使用 /view 链接
-  pdfs: {
+ pdfs: {
     'medias/work2.pdf': 'https://www.canva.cn/design/DAG3v27LOks/nYnDgVunopE3UrEmUfgHUQ/view',
-    'medias/work3.pdf': 'https://www.canva.cn/design/EXAMPLE_PDF_LINK_2/view',
-    'medias/work4.pdf': 'https://www.canva.cn/design/EXAMPLE_PDF_LINK_3/view',
-    'medias/work5.pdf': 'https://www.canva.cn/design/EXAMPLE_PDF_LINK_4/view',
-    'medias/work6.pdf': 'https://www.canva.cn/design/EXAMPLE_PDF_LINK_5/view',
-    'medias/work7.pdf': 'https://www.canva.cn/design/EXAMPLE_PDF_LINK_6/view',
-    'medias/work8.pdf': 'https://www.canva.cn/design/EXAMPLE_PDF_LINK_7/view',
-    'medias/work9.pdf': 'https://www.canva.cn/design/EXAMPLE_PDF_LINK_8/view',
-    'medias/work10.pdf': 'https://www.canva.cn/design/EXAMPLE_PDF_LINK_9/view',
-    'medias/work11.pdf': 'https://www.canva.cn/design/EXAMPLE_PDF_LINK_10/view'
+    'medias/work3.pdf': 'https://www.canva.cn/design/DAG3vzFB6Os/LT74d4jZ90MrnjH1jB47cg/view',
+    'medias/work4.pdf': 'https://www.canva.cn/design/DAG3v__78VU/GOlCK2WyHpGkrJbCPXwEAA/view',
+    'medias/work5.pdf': 'https://www.canva.cn/design/DAG3v_D8BOs/rMc1edeZ0i3s7UR6s-wx8Q/view',
+    'medias/work6.pdf': 'https://www.canva.cn/design/DAG36YYbNIc/qRDHLKZHMnu2AjSpLSu_qA/view',
+    'medias/work7.pdf': 'https://www.canva.cn/design/DAG36fRs5NU/wTeOnt6mJtz4reyGko5O_w/view',
+    'medias/work8.pdf': 'https://www.canva.cn/design/DAG3v_qvJrg/MhMqXIGJh4LhX8nuhQggZQ/view',
+    'medias/work9.pdf': 'https://www.canva.cn/design/DAG3v0n3UCI/_yudbHu8SJznJv2VHbYhMQ/view',
+    'medias/work10.pdf': 'https://www.canva.cn/design/DAG36TOf6co/lzstXRzM5Hg8RlAoz1Ex_g/view',
+    'medias/work11.pdf': 'https://www.canva.cn/design/DAG36Xm_mic/dpKXDqTbyONC_92ua1666Q/view'
   },
   // 视频文件映射 - 使用 /watch 链接
   videos: {
