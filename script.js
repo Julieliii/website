@@ -1053,7 +1053,7 @@ document.addEventListener('DOMContentLoaded', function() {
     pdfTab.setAttribute('data-type', 'pdf');
     
     const pdfText = languageManager.currentLang === 'zh' ? '文档' : 'Documents';
-    pdfTab.innerHTML = `<span class="button-content"> (${pdfs.length})</span>`;
+    pdfTab.innerHTML = `<span class="button-content"></span>`;
     
     pdfTab.addEventListener('click', function(e) {
       e.preventDefault();
@@ -1072,7 +1072,7 @@ document.addEventListener('DOMContentLoaded', function() {
     videoTab.setAttribute('data-type', 'video');
     
     const videoText = languageManager.currentLang === 'zh' ? '视频' : 'Videos';
-    videoTab.innerHTML = `<span class="button-content">(${videos.length})</span>`;
+    videoTab.innerHTML = `<span class="button-content"></span>`;
     
     videoTab.addEventListener('click', function(e) {
       e.preventDefault();
