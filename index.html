@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lihong's Gallery</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Julie Zhu | Interaction Designer</title>
+  <link rel="stylesheet" href="public/portfolio.css">
 </head>
 <body>
   <!-- 导航栏 -->
   <nav class="navbar">
     <div class="nav-links">
-      <a href="#gallery-section" class="nav-link active" data-lang-zh="作品集" data-lang-en="Gallery">作品集</a>
-      <a href="#about-section" class="nav-link" data-lang-zh="朱莉弘" data-lang-en="Lihong">朱莉弘</a>
-      <a href="#about-section" class="nav-link" data-lang-zh="关于" data-lang-en="About">关于</a>
+      <a href="#gallery-section" class="nav-link active" data-lang-zh="认识 Julie" data-lang-en="Meet Julie">认识 Julie</a>
+      <a href="#selected-works" class="nav-link" data-lang-zh="作品集" data-lang-en="Selected Works">作品集</a>
+      <a href="#contact-section" class="nav-link" data-lang-zh="联系" data-lang-en="Contact">联系</a>
     </div>
     <!-- 导航栏语言切换 -->
     <div class="nav-lang-switch">
@@ -23,10 +23,145 @@
 
   <!-- Gallery 部分 -->
   <section id="gallery-section" class="page-section active">
-    <div class="container">
+    <div class="ip-story" id="ip-story">
+      <div class="ip-canvas-wrap" id="ip-canvas" aria-label="Julie's 3D fox IP"></div>
+
+      <section class="story-panel hero-panel" id="story-section">
+        <div class="hero-watermark" data-lang-zh="朱莉弘" data-lang-en="Julie Zhu">朱莉弘</div>
+        <div class="hero-intro">
+          <p class="kicker" data-lang-zh="个人 3D IP 作品集入口" data-lang-en="Personal 3D IP Portfolio">个人 3D IP 作品集入口</p>
+          <h1 data-lang-zh="朱莉弘" data-lang-en="JULIE ZHU">朱莉弘</h1>
+          <h2 data-lang-zh="交互设计师" data-lang-en="Interaction Designer">交互设计师</h2>
+          <p data-lang-zh="UI/UX · XR · Game UI · Creative Technology" data-lang-en="UI/UX · XR · Game UI · Creative Technology">UI/UX · XR · Game UI · Creative Technology</p>
+        </div>
+        <div class="hero-tools" aria-label="Julie's tools">
+          <div class="hero-tools-header">
+            <p class="kicker" data-lang-zh="工具与工作流" data-lang-en="Tools & Workflow">工具与工作流</p>
+            <span data-lang-zh="从设计系统、3D/XR 到前端原型" data-lang-en="From design systems and 3D/XR to front-end prototypes">从设计系统、3D/XR 到前端原型</span>
+          </div>
+          <div class="tool-icon-dock">
+            <article class="tool-chip" tabindex="0">
+              <img src="public/app-icons/figma.jpeg" alt="Figma">
+              <span>Figma</span>
+              <small data-lang-zh="界面原型" data-lang-en="UI Prototype">界面原型</small>
+            </article>
+            <article class="tool-chip" tabindex="0">
+              <img src="public/app-icons/unity.png" alt="Unity">
+              <span>Unity</span>
+              <small data-lang-zh="XR 交互" data-lang-en="XR Interaction">XR 交互</small>
+            </article>
+            <article class="tool-chip" tabindex="0">
+              <img src="public/app-icons/blender.png" alt="Blender">
+              <span>Blender</span>
+              <small data-lang-zh="3D 资产" data-lang-en="3D Assets">3D 资产</small>
+            </article>
+            <article class="tool-chip" tabindex="0">
+              <img src="public/app-icons/photoshop.png" alt="Photoshop">
+              <span>PS</span>
+              <small data-lang-zh="视觉修图" data-lang-en="Visual Edit">视觉修图</small>
+            </article>
+            <article class="tool-chip" tabindex="0">
+              <img src="public/app-icons/illustrator.png" alt="Illustrator">
+              <span>AI</span>
+              <small data-lang-zh="图形系统" data-lang-en="Graphic System">图形系统</small>
+            </article>
+            <article class="tool-chip" tabindex="0">
+              <img src="public/app-icons/after-effects.png" alt="After Effects">
+              <span>AE</span>
+              <small data-lang-zh="动效叙事" data-lang-en="Motion Story">动效叙事</small>
+            </article>
+            <article class="tool-chip" tabindex="0">
+              <img src="public/app-icons/rhino.jpeg" alt="Rhino">
+              <span>Rhino</span>
+              <small data-lang-zh="空间建模" data-lang-en="Spatial Model">空间建模</small>
+            </article>
+            <article class="tool-chip" tabindex="0">
+              <img src="public/app-icons/autocad.png" alt="AutoCAD">
+              <span>CAD</span>
+              <small data-lang-zh="结构制图" data-lang-en="Technical Drawing">结构制图</small>
+            </article>
+            <article class="tool-chip" tabindex="0">
+              <img src="public/app-icons/arduino.jpeg" alt="Arduino">
+              <span>Arduino</span>
+              <small data-lang-zh="实体原型" data-lang-en="Physical Proto">实体原型</small>
+            </article>
+            <article class="tool-chip" tabindex="0">
+              <img src="public/app-icons/raspberry-pi.png" alt="Raspberry Pi">
+              <span>Pi</span>
+              <small data-lang-zh="互动装置" data-lang-en="Installation">互动装置</small>
+            </article>
+            <article class="tool-chip" tabindex="0">
+              <img src="public/app-icons/codex.jpeg" alt="Codex">
+              <span>Codex</span>
+              <small data-lang-zh="前端协作" data-lang-en="Frontend Build">前端协作</small>
+            </article>
+            <article class="tool-chip" tabindex="0">
+              <img src="public/app-icons/seedance.png" alt="Seedance">
+              <span>Seedance</span>
+              <small data-lang-zh="AI 视频" data-lang-en="AI Video">AI 视频</small>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="story-panel split-panel" id="philosophy-section">
+        <div class="story-copy right-copy">
+          <p class="kicker" data-lang-zh="设计理念" data-lang-en="Design Philosophy">设计理念</p>
+          <h2 data-lang-zh="创造有意义的数字体验，让技术拥有人的温度。" data-lang-en="Designing meaningful digital experiences where technology feels human.">创造有意义的数字体验，让技术拥有人的温度。</h2>
+          <div class="keyword-row">
+            <span data-lang-zh="交互设计" data-lang-en="Interaction Design">交互设计</span>
+            <span data-lang-zh="混合现实" data-lang-en="Mixed Reality">混合现实</span>
+            <span data-lang-zh="视觉叙事" data-lang-en="Visual Storytelling">视觉叙事</span>
+            <span data-lang-zh="创意技术" data-lang-en="Creative Technology">创意技术</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="story-panel education-panel" id="education-story">
+        <div class="story-copy left-copy">
+          <p class="kicker" data-lang-zh="教育背景" data-lang-en="Education">教育背景</p>
+          <div class="story-timeline">
+            <article>
+              <span>2024 - 2025</span>
+              <h3 data-lang-zh="利兹大学" data-lang-en="University of Leeds">利兹大学</h3>
+              <p data-lang-zh="数字设计未来硕士 · Distinction" data-lang-en="MA Digital Design Futures · Distinction">数字设计未来硕士 · Distinction</p>
+            </article>
+            <article>
+              <span>2020 - 2024</span>
+              <h3 data-lang-zh="艾米丽卡尔艺术与设计大学" data-lang-en="Emily Carr University">艾米丽卡尔艺术与设计大学</h3>
+              <p data-lang-zh="交互设计本科 · Dean's List & Honours" data-lang-en="BDes Interaction Design · Dean's List & Honours">交互设计本科 · Dean's List & Honours</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="story-panel experience-panel" id="experience-story">
+        <div class="story-copy right-copy">
+          <p class="kicker" data-lang-zh="工作经历" data-lang-en="Experience">工作经历</p>
+          <div class="story-timeline">
+            <article>
+              <span>2026.04 - 2026.06</span>
+              <h3 data-lang-zh="游戏 UI 设计师" data-lang-en="Game UI Designer">游戏 UI 设计师</h3>
+              <p data-lang-zh="实时 HUD · 界面走查 · 视觉资产落地" data-lang-en="Real-time HUD · UI review · Production-ready visual assets">实时 HUD · 界面走查 · 视觉资产落地</p>
+            </article>
+            <article>
+              <span>2023.06 - 2023.09</span>
+              <h3 data-lang-zh="UI 设计师" data-lang-en="UI Designer">UI 设计师</h3>
+              <p data-lang-zh="官网界面 · 品牌视觉 · 视频脚本与剪辑" data-lang-en="Website UI · Brand visuals · Video scripting and editing">官网界面 · 品牌视觉 · 视频脚本与剪辑</p>
+            </article>
+            <article>
+              <span>2021.06 - 2022.06</span>
+              <h3 data-lang-zh="绘画助理" data-lang-en="Painting Assistant">绘画助理</h3>
+              <p data-lang-zh="设计工具教学 · 项目表达 · 作品集辅导" data-lang-en="Design tool teaching · Project storytelling · Portfolio support">设计工具教学 · 项目表达 · 作品集辅导</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="container selected-works" id="selected-works">
       <div class="gallery-title">
-        <h1 data-lang-zh="作品集" data-lang-en="Art Gallery">作品集</h1>
-        <p data-lang-zh="探索数字艺术作品与创意项目" data-lang-en="Explore the collection of digital artworks and creative projects">探索数字艺术作品与创意项目的收藏</p>
+        <h1 data-lang-zh="作品集" data-lang-en="Portfolio">作品集</h1>
       </div>
 
       <!-- 画廊 -->
@@ -44,6 +179,15 @@
       </div>
       <p id="infoDescription" data-lang-zh="将光标悬停在任意卡片上查看项目信息" data-lang-en="Move your cursor over any of the cards to view project information">将光标悬停在任意卡片上查看项目信息</p>
     </div>
+
+    <section class="contact-strip" id="contact-section">
+      <p class="kicker" data-lang-zh="联系" data-lang-en="Contact">联系</p>
+      <h2 data-lang-zh="一起创造清晰、有温度、被记住的数字体验。" data-lang-en="Let's build warm, clear, memorable digital experiences.">一起创造清晰、有温度、被记住的数字体验。</h2>
+      <div class="contact-actions">
+        <span>WeChat: 501267858</span>
+        <a href="mailto:501267858@qq.com">501267858@qq.com</a>
+      </div>
+    </section>
   </section>
 
   <!-- About 部分 -->
@@ -81,9 +225,9 @@
       <!-- 关于我 -->
       <div class="about-section">
         <h2 class="section-title" data-lang-zh="关于我" data-lang-en="About Me">关于我</h2>
-        <p data-lang-zh="拥有国际化的交互设计与数字媒体背景，擅长以研究驱动创新设计。能够结合交互逻辑、视觉语言与技术实现，构建兼具美感与功能的用户体验。关注沉浸式交互、AI设计与健康传播方向，具有扎实的项目实践与跨学科协作经验。" 
-           data-lang-en="With an international background in interaction design and digital media, I specialize in research-driven innovative design. I combine interaction logic, visual language, and technical implementation to create user experiences that balance aesthetics and functionality. My focus areas include immersive interaction, AI design, and health communication, with solid project practice and cross-disciplinary collaboration experience.">
-            拥有国际化的交互设计与数字媒体背景，擅长以研究驱动创新设计。能够结合交互逻辑、视觉语言与技术实现，构建兼具美感与功能的用户体验。关注沉浸式交互、AI设计与健康传播方向，具有扎实的项目实践与跨学科协作经验。
+        <p data-lang-zh="Julie Zhu 是一名交互设计师，拥有加拿大与英国的数字设计教育背景。她关注 UI/UX、XR、游戏界面与创意技术，擅长把研究、视觉叙事和可实现的交互原型结合起来，创造清晰、有温度且以用户为中心的数字体验。" 
+           data-lang-en="Julie Zhu is an interaction designer educated in Canada and the UK. Her practice spans UI/UX, XR, game interfaces, and creative technology, combining research, visual storytelling, and buildable prototypes to create clear, human-centered digital experiences.">
+            Julie Zhu 是一名交互设计师，拥有加拿大与英国的数字设计教育背景。她关注 UI/UX、XR、游戏界面与创意技术，擅长把研究、视觉叙事和可实现的交互原型结合起来，创造清晰、有温度且以用户为中心的数字体验。
         </p>
       </div>
 
@@ -139,7 +283,7 @@
         <div class="timeline">
           <div class="timeline-item">
             <div class="timeline-date">2024.09 - 2025.09</div>
-            <div class="timeline-title" data-lang-zh="数字设计未来 | 硕士" data-lang-en="Future Digital Design | Master">数字设计未来 | 硕士</div>
+            <div class="timeline-title" data-lang-zh="利兹大学 | 数字设计未来硕士" data-lang-en="University of Leeds | MA Digital Design Futures">利兹大学 | 数字设计未来硕士</div>
             <div class="timeline-description">
               <p data-lang-zh="主修课程：沉浸与参与式设计，未来思维与推测性设计，创意编程与生成艺术，数字叙事与空间表达" 
                  data-lang-en="Main Courses: Immersive and Participatory Design, Future Thinking and Speculative Design, Creative Programming and Generative Art, Digital Storytelling and Spatial Expression">
@@ -149,7 +293,7 @@
           </div>
           <div class="timeline-item">
             <div class="timeline-date">2020.09 - 2024.05</div>
-            <div class="timeline-title" data-lang-zh="交互设计 | 本科" data-lang-en="Interaction Design | Bachelor">交互设计 | 本科</div>
+            <div class="timeline-title" data-lang-zh="艾米丽卡尔艺术与设计大学 | 交互设计本科" data-lang-en="Emily Carr University of Art + Design | BDes Interaction Design">艾米丽卡尔艺术与设计大学 | 交互设计本科</div>
             <div class="timeline-description">
               <p data-lang-zh="主修课程：交互设计，AI剪辑，UI设计，前端编程，三维建模与混合现实设计，健康与用户体验设计，网络化物体设计与物联网体验，新兴技术交互设计" 
                  data-lang-en="Main Courses: Interaction Design, AI Editing, UI Design, Front-end Programming, 3D Modeling and Mixed Reality Design, Health and User Experience Design, Networked Object Design and IoT Experience, Emerging Technology Interaction Design">
@@ -165,9 +309,24 @@
         <h2 class="section-title" data-lang-zh="工作经历" data-lang-en="Work Experience">工作经历</h2>
         <div class="timeline">
           <div class="timeline-item">
+            <div class="timeline-date">2026.04 - 2026.06</div>
+            <div class="timeline-title" data-lang-zh="游戏 UI 设计师" data-lang-en="Game UI Designer">游戏 UI 设计师</div>
+            <div class="timeline-subtitle" data-lang-zh="昆明螺舟科技有限公司" data-lang-en="Kunming Luozhou Technology Co., Ltd.">昆明螺舟科技有限公司</div>
+            <ul class="timeline-description">
+              <li data-lang-zh="参与实时 HUD 与界面版本走查，优化高频操作路径与信息层级。" 
+                  data-lang-en="Reviewed real-time HUD and interface iterations, improving high-frequency task flows and information hierarchy.">
+                    参与实时 HUD 与界面版本走查，优化高频操作路径与信息层级。
+              </li>
+              <li data-lang-zh="完成界面体验缺陷修复、切图资产优化与设计落地验证。" 
+                  data-lang-en="Resolved UI experience issues, optimized production assets, and supported design implementation checks.">
+                    完成界面体验缺陷修复、切图资产优化与设计落地验证。
+              </li>
+            </ul>
+          </div>
+          <div class="timeline-item">
             <div class="timeline-date">2023.06 - 2023.09</div>
             <div class="timeline-title" data-lang-zh="UI设计师" data-lang-en="UI Designer">UI设计师</div>
-            <div class="timeline-subtitle"data-lang-zh="云南派动科技有限公司" data-lang-en="hanghai Pydance Technology Co,, Ltd."></div> 
+            <div class="timeline-subtitle" data-lang-zh="上海派动科技有限公司" data-lang-en="Shanghai Pydance Technology Co., Ltd.">上海派动科技有限公司</div> 
             <ul class="timeline-description">
               <li data-lang-zh="参与公司官网的整体页面设计与前端界面排版，提升品牌统一性与可读性" 
                   data-lang-en="Participated in the overall page design and front-end interface layout of the company website, enhancing brand consistency and readability">
@@ -249,6 +408,7 @@
   </div>
 </div>
 
-  <script src="script.js"></script>
+  <script type="module" src="src/ip-story.js"></script>
+  <script type="module" src="script.js"></script>
 </body>
 </html>
